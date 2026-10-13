@@ -1,0 +1,14 @@
+# Porta do servidor (Render/Railway setam automaticamente)
+PORT=10000
+
+# Tempo de vida de um peer (segundos). Padrão: 600 (10 min)
+BRN_TRACKER_TTL=600
+
+# Intervalo entre execuções do cleanup (segundos). Padrão: 60
+BRN_TRACKER_CLEANUP=60
+
+# Máximo de peers simultâneos. Padrão: 5000
+BRN_TRACKER_MAX_PEERS=5000
+
+# Rate limit por IP (req/min). Padrão: 30
+BRN_TRACKER_RATE=30
